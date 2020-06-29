@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pin Code</string>
+    <string name="account">Enter the pin code</string>
+    <string name="First_Name">Enter the pin code received in your email</string>
+    <string name="Next">Confirm</string>
+    <string name="text_view1">1</string>
+    <string name="text_view2">2</string>
+    <string name="text_view3">3</string>
+    <string name="text_view4">4</string>
+    <string name="text_view5">5</string>
+    <string name="text_view6">6</string>
+</resources>

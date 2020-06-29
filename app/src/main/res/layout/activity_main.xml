@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/leftarrow" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal"
+            android:text="@string/account"
+            android:textAllCaps="false"
+            android:textColor="@color/colorOrange"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/First_Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginBottom="120dp">
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view1"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view2"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view3"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view4"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view5"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+            <EditText
+                style="@style/CustomText"
+                android:background="@drawable/edittext_rounded"
+                android:inputType="number"
+                android:hint="@string/text_view6"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/next_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:onClick="Next"
+            android:text="@string/Next"
+            android:textColor="@color/colorLightWhite"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+</ScrollView>
